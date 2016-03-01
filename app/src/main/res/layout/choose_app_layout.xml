@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#dedee1">
+
+    <TextView
+        android:id="@+id/txt_tittle_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="My Nanodegree Apps!!"
+        android:textSize="12pt"
+        android:textColor="#111010"
+        android:layout_margin="5dp" />
+
+    <Button
+        android:id="@+id/btn_spotify_launch"
+        style="@style/buttonLauncher"
+        android:layout_width="221dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Spotify Streamer" />
+
+    <Button
+        android:id="@+id/btn_scores_lauch"
+        style="@style/buttonLauncher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Score App" />
+
+    <Button
+        android:id="@+id/btn_library_Lauch"
+        style="@style/buttonLauncher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Library APP" />
+
+    <Button
+        android:id="@+id/btn_builtitBiggger_launch"
+        style="@style/buttonLauncher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Build It Bigger" />
+
+    <Button
+        android:id="@+id/btn_xyz_Reader"
+        style="@style/buttonLauncher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="XYZ Reader" />
+
+    <Button
+        android:id="@+id/btn_capstone_launch"
+        style="@style/buttonLauncher.capstone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Capstone: My Own APP" />
+</LinearLayout>
